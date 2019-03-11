@@ -1,0 +1,80 @@
+<script type="text/javascript" src="https://code.jquery.com/jquery-git.js"></script>
+<link rel="stylesheet" type="text/css" href="css/ceo-oridjidji.css">
+<div id="all">
+  <div id="map">
+    <div id="player">
+    <div id="gun">
+    <div class="left-top" rel="yellow"></div>
+    <div class="right-top" rel="red"></div>
+    <div class="right-bottom" rel="blue"></div>
+    <div class="left-bottom" rel="lime"></div>
+    </div>
+    </div>
+    
+    <div id="enemy">
+    <div class="left-top" rel="yellow"></div>
+    <div class="right-top" rel="red"></div>
+    <div class="right-bottom" rel="blue"></div>
+    <div class="left-bottom" rel="lime"></div>
+    </div>
+
+
+
+
+    <div id="mag">
+        <p>Bullets in mag: </p>
+          <p id="bulletsLeft"></p>
+        </div>
+
+        <div class="bodovi">
+            <p>Player Score</p>
+              <p id="playerScore"></p>
+              <p id="detekcija"></p>
+            </div>
+  </div>
+  
+  
+  
+  <div class="options" id="all-opt">
+  <div id="options">
+    
+      <p id="curFPS">Current Fps: 0</p>
+    <div class="fps">
+      <p>Fps Settings : </p>
+      <p id="fpsShow">3</p>
+      <input type="range" min="1" max="60" value="30" step="1" id="fpsTRY" onchange="fpsChange()">
+    </div>
+    <div class="playerSpeed">
+      <p>Player Speed : </p>
+      <p id="speedShow">5</p>
+      <input type="range" min="0" max="20" value="5" step="1" id="speedPlayer">
+    </div>
+    <div class="resolution">
+      <p>Game Resolution : </p>
+      <p id="resShow">5</p>
+      <input type="range" min="2" max="15" value="5" step="1" id="gameRes" onchange="changeRes()">
+      <button onclick="openFullscreen()">Full Screen</button>
+      <button onclick="closeFullscreen()" >Exit Full Screen</button>
+
+    </div>
+    <div class="soundSettings">
+      <p>Sound Settings</p>
+      <input type="range" min="0" max="100" value="5" step="1" id="volume" onchange="changeVolume()">
+      <button onclick="enableMute()">Mute Sound</button>
+      <button onclick="disableMute()" >Full Sound</button>
+    </div>
+    <div class="coordinatesMouse">
+      <p id="coordinates"></p>
+      
+      <p id="playerX"></p>
+      
+      <p id="playerY"></p>
+    </div>
+    
+    
+  </div>
+</div>
+</div>
+
+
+<script type="text/javascript" src="js/ceo-oridjidji.js"></script>

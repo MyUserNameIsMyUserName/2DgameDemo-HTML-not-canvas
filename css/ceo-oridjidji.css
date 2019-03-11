@@ -1,0 +1,190 @@
+
+    #map {
+  position: absolute;
+  width: 1280px;
+  height: 720px;
+  top: 0px;
+  left: 0px;
+  background: whitesmoke;
+  overflow: hidden;
+  cursor:none;
+  
+}
+
+
+#player {
+  position: absolute;
+  border-radius: 50%;
+  background: red;
+  top: 355px;
+  left: 635px;
+  z-index: 20;
+}
+
+
+
+
+
+
+.options {
+  position: relative;
+  left: 00px;
+  background: whitesmoke;
+  width: 300px;
+  padding: 0px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+}
+
+#options > * {
+  padding: 5px 10px;
+}
+
+#options > div:hover {
+  background: darkgrey;
+  color: white;
+  font-weight: bold;
+}
+
+#options > div > p {
+  display: inline;
+}
+
+#options > div > input {
+  display: block;
+  width: 100%;
+  padding: 10px 0px;
+  
+}
+
+
+#player {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  height: 30px;
+  background: #CCC;
+}
+
+
+
+.coordinatesMouse p {
+  display: block!important;
+  clear: left;
+}
+
+
+
+
+
+
+
+#gun div, #enemy div {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.left-top { left: 0; top: 0; background: yellow; }
+.right-top {right: 0; top: 0; background: red; }
+.right-bottom { right: 0; bottom: 0; background:blue;}
+.left-bottom { left: 0; bottom: 0; background: lime; }
+
+
+.bodovi p {
+  display: inline-block;
+}
+
+.bodovi {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px;
+    color: white;
+    opacity: 0.5;
+  background: green;
+}
+
+
+.bodovi p {
+    margin: 0px;
+    padding: 5px;
+}
+
+input[type=checkbox]:checked {
+  background: red;
+}
+
+
+.options:before {
+  content: "Options";
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  background: grey;
+  width: calc(100% - 40px);
+  display: block;
+  padding: 10px 20px;
+  /*border: solid;
+  border-width: 0px 2px 2px 2px;*/
+}
+/*
+.options #options{
+  display: none;
+}
+
+.options:hover #options {
+  display: block;
+}
+
+*/
+
+
+#mag {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  padding: 10px 20px;
+  background: lightblue;
+}
+
+#bulletsLeft {
+  color: blue;
+}
+
+
+
+
+
+div#mag {
+    width: 20%;
+    bottom: 0px;
+    position: absolute;
+    padding: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+}
+
+div#mag p {
+    display: inline;
+    pointer-events: none;
+}
